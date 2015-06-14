@@ -1,0 +1,9 @@
+coursesearch.sh:
+	auto download all raw_data of course website
+
+rm_rawdata.sh:
+	auto clean all raw_data of course website
+
+src/course.py:
+	download the raw_data of ['課程名稱', '開課學期', '授課對象', '授課教師', '課號', '課程識別碼', '班次', '學分', '全/半年', '必/選修', '上課時間', '上課地點','課程概述', '課程目標', '課程要求'] in websites
+	ignore course include [u'服務學習', u'專題研究', u'論文', u'外文領域', u'國文領域', u'軍訓']
